@@ -6,11 +6,12 @@ public class intro {
 		
 		
 		//normal sum
-		int a=5;
-		int b=2;
+//		int a=5;
+//		int b=2;
+//		
+//		int sum=a+b;
+//		System.out.println(sum);
 		
-		int sum=a+b;
-		System.out.println(sum);
 		
 		
 		//if-else
@@ -21,6 +22,8 @@ public class intro {
 //		else {
 //			System.out.println("safe");
 //		}
+		
+		
 		
 		
 		//if-else multiple else-if
@@ -40,6 +43,8 @@ public class intro {
 //		}
 		
 		
+		
+		
 		//Nested if
 //		char visa = 'A';
 //		int amt = 60000;
@@ -56,12 +61,16 @@ public class intro {
 //			}
 //		}
 		
+		
+		
 		//while loop
 //		int i=1;
 //		while(i<=100) {
 //				System.out.println(i);
 //			i=i+1;
 //		}
+		
+		
 		
 		//While loop even
 //		int i=1;
@@ -70,6 +79,8 @@ public class intro {
 //				System.out.println(i);
 //			i=i+1;
 //		}
+		
+		
 		
 		
 		//Table from 2 to 5 using while loop
