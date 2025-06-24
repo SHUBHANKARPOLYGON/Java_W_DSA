@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Hello {
+module Java {
 }

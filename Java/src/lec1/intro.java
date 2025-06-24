@@ -6,11 +6,11 @@ public class intro {
 		
 		
 		//normal sum
-//		int a=5;
-//		int b=2;
-//		
-//		int sum=a+b;
-//		System.out.println(sum);
+		int a=5;
+		int b=2;
+		
+		int sum=a+b;
+		System.out.println(sum);
 		
 		
 		//if-else
