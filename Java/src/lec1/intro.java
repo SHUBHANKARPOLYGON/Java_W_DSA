@@ -6,8 +6,8 @@ public class intro {
 		
 		
 		//normal sum
-//		int a=5;
-//		int b=2;
+//		int a=10;
+//		int b=12;
 //		
 //		int sum=a+b;
 //		System.out.println(sum);
