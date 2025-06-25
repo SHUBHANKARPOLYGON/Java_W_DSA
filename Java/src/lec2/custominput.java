@@ -3,6 +3,8 @@ package lec2;
 import java.util .*;  
 public class custominput {
 
+	private static double sum;
+
 	public static void main(String[] args) {
 		
 		
@@ -60,20 +62,52 @@ public class custominput {
 		
 		
 		//sum of number and its digit
+//		Scanner sc=new Scanner(System.in);
+//		
+//		int num=sc.nextInt();
+//		
+//		int cnt=0;
+//		while (num!=0) {
+//		
+//			int ld=num%10;
+//			num=num+ld;
+//			num=num/10;
+//	}
+//	
+//			System.out.println(num);
+		
+
+		
+		
+		//Armstrong of a number
+		
 		Scanner sc=new Scanner(System.in);
 		
-		int num=sc.nextInt();
+		double num=sc.nextInt();
 		
 		int cnt=0;
-		while (num!=0) {
-		
-			int ld=num%10;
-			num=num+ld;
-			num=num/10;
+		int temp=(int) num;
+		while(temp!=0) {
+			 cnt=cnt+1;
+			 temp=temp/10; 
+		 }
+		 
+		 temp=(int) num;
+		 
+		 while(temp!=0) {
+			 int ld=temp%10;
+			 sum=sum+(int) Math.pow(ld, cnt);
+			 
+			 
+			 temp=temp/10;
+		 }
+		 
+		 if(num==sum) {
+			 System.out.println("Armstrong");
 	}
-	
-			System.out.println(num);
-		
+		 else {
+			 System.out.println("this is not armstrong");
+		 }
 		
 		
 	}
