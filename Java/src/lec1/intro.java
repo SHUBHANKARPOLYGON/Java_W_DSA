@@ -6,12 +6,20 @@ public class intro {
 		
 		
 		//normal sum
+<<<<<<< HEAD
 //		int a=10;
 //		int b=10;
 //		
 //		int sum=a+b;
 //		System.out.println(sum);
 		
+=======
+		// int a=5;
+		// int b=2;
+		
+		// int sum=a+b;
+		// System.out.println(sum);
+>>>>>>> 4395b167ef9e3e6c3073f84eefab1a3120339b4b
 		
 		
 		//if-else
