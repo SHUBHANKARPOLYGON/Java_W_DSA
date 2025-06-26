@@ -8,6 +8,7 @@ public class diamondpattern {
 		
 		
 		//WAP in java to reverse a given number
+		
 //		Scanner sc=new Scanner(System.in);
 //		
 //		int num=sc.nextInt();
@@ -51,6 +52,7 @@ public class diamondpattern {
 		
 		
 		//HCF of a number	
+		
 //		int n1=90;
 //		int n2=20;
 //		
@@ -65,6 +67,7 @@ public class diamondpattern {
 		
 		
 		//Bostom No.
+		
 //		int n=378;
 //		int temp=n;
 //		int fact=2;
@@ -97,6 +100,30 @@ public class diamondpattern {
 //		}
 //		
 //		System.out.println(digitSum==factSum?"Boston":"not a boston");
+		
+		
+		
+		//Happy number code
+		
+		int n=20;
+		
+		int temp=0;
+		
+		for(int i=1;i<=1000;i++) {
+			int sum=0;
+			
+			while(n>0) {
+				sum=sum+(n%10)*(n%10);
+				n=n/10;
+			}
+			
+			if(sum==1) {
+				temp=1;
+				break;
+			}
+			n=sum;
+		}
+		System.out.println(temp==1?"Happy":"not happy");
 		
 	}
 
