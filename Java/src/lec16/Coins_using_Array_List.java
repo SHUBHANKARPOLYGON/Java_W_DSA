@@ -19,7 +19,7 @@ public class Coins_using_Array_List {
 			if(target>=coins[i]) {
 				ans.add(coins[i]);
 				exchange(ans,target-coins[i], coins, i);
-				ans.remove(ans.size()-1);
+				ans.remove(ans.size()-1); //backtracking cmd
 			}
 			i++;
 		}
