@@ -5,9 +5,9 @@ public class rat_in_the_maze {
 	//rat in the maze using backtracking
 	public static void main(String[] args) {
 		int mat[][]= {{1,0,0,0},
-					 {1,1,0,1},
-					 {1,1,0,0},
-					 {0,1,1,1}};
+			      {1,1,0,1},
+			      {1,1,0,0},
+			      {0,1,1,1}};
 		
 		find("",0,0,mat);
 
