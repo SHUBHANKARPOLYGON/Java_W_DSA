@@ -3,7 +3,7 @@ package lec22;
 public class queue {
 	
 	private int arr[];
-	private int front[];
+	private int front;
 	private int size;
 	
 public queue() {
